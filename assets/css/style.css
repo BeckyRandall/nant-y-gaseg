@@ -1,0 +1,477 @@
+/*--------------Nav Bar------------------*/
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.nav-container {
+    width: 100%;
+}
+
+.navbar-title {
+    color: #3e2818 !important;
+}
+
+
+@media (min-width: 768px) {
+    .navbar-title {
+        display: none;
+    }
+}
+
+/*--------------Universal------------------*/
+.row {
+    margin-top:20px;
+}
+
+.spacer-20{
+    height:20px;
+}
+
+.banner-text {
+    max-width: 90vw;
+    text-align: center;
+    color: #DACBB4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#hero-overlay {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+}
+
+.fh-hero-text {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+    height: 100vh;
+    color: #DACBB4;
+    animation-delay: 5s;
+    -webkit-animation-delay: 5s;
+    -moz-animation-delay: 5s;
+    -o-animation-delay: 5s;
+    -ms-animation-delay: 5s;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+
+.hero-logo {
+    width: 75vw;
+    max-width: 500px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.hero-scroll-spacer {
+    height: 100vh;
+}
+
+.hero-scroll-spacer-75 {
+    height: 75vh;
+}
+
+.wedding-bottom-image {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: -20px;
+}
+
+.text-background {
+    padding: 10px;
+    background-color: rgba(178, 172, 136, 1);
+}
+
+.light-background {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.button-holder {
+    margin: auto;
+}
+
+.white-button-wrap {
+    background-color: #fff;
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.white-button {
+    align-self: center;
+    line-height: 50px;
+}
+
+.sage-button-wrap {
+    background-color: rgba(178, 172, 136, 1);
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.sage-button {
+    align-self: center;
+    line-height: 50px;
+}
+
+.white-button-text{
+    color: black;
+}
+
+.button {
+    align-self: center;
+    background-color: #fff;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #41403e;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Neucha, sans-serif;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: .75rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+}
+
+.button:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+.pop-out {
+    border-radius: 25px;
+}
+/*--------------HOME PAGE------------------*/
+
+/*--------------Hero Image------------------*/
+
+#home-fixed-hero {
+    height: 100vh;
+    width: 100vw;
+    background: url(../imgs/sunsetcorn.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+/*--------------Informational Navigation------------------*/
+
+#home-info-nav {
+    background-color: #b2ac88;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+#home-info-nav-left {
+    height: 100%
+}
+
+.info-nav-image {
+    width: 100%;
+    display: none;
+    margin-bottom: 10px;
+}
+
+hr {
+    border-top: 1px solid #3c3939;
+    width: 100%;
+    margin: 5px 0;
+}
+
+@media (max-width: 767px) {
+    .info-nav-media {
+        display: none;
+    }
+
+    .info-nav-image {
+        width: 100%;
+        display: block;
+    }
+}
+
+.info-nav-spacer {
+    height: calc(50vw/10);
+}
+
+.circle-container {
+    width: 100%;
+    height: calc(100vw/3);
+    padding: 2px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.circle-cover-bg {
+    background: url('../imgs/logo-black.webp') no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
+    transition: background-image 1s;
+}
+
+.home-page-footer-spacer {
+    height: 25vh;
+}
+
+/*--------------Contact Form------------------*/
+
+#contact-fixed-hero {
+    height: 100vh;
+    width: 100vw;
+    background: url(../imgs/sunflowers1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsla(0, 100%, 90%, 0.3);
+    background-position: center;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+.form-styling {
+    margin: 30px;
+}
+
+.form-group {
+    max-width: 600px;
+    margin: auto;
+}
+
+form button {
+    border: none;
+    border-radius: 25px;
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+/*--------------Retreat Page------------------*/
+
+#retreat-fixed-hero {
+    height: 100vh;
+    width: 100vw;
+    background: url(../imgs/DSC_9147-Edit.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsla(0, 100%, 90%, 0.3);
+    background-position: center;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+#book-retreat-image {
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(../images/get-help-hero.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsla(0, 100%, 90%, 0.3);
+    position: relative;
+    opacity: 1.5;
+}
+
+.get-help-logo {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    padding-top: 10px;
+    margin: auto;
+}
+
+
+.help-btn-styling {
+    border: none;
+    border-radius: 20px;
+    background-color: #3e2818;
+    color: #DACBB4;
+}
+
+.help-card {
+    margin: 10px;
+}
+
+.retreat-img-right {
+    border: solid rgba(178, 172, 136, 1) 10px;
+    transform: rotate(5deg);
+    max-width: 100%;
+    margin: auto;
+}
+
+.retreat-img-left {
+    border: solid rgba(178, 172, 136, 1) 10px;
+    transform: rotate(-5deg);
+    max-width: 100%;
+    margin: auto;
+}
+
+
+
+/*--------------WEDDING PAGE------------------*/
+
+/*--------------hero image------------------*/
+#wedding-fixed-hero {
+    height: 100vh;
+    width: 100vw;
+    background: url(../imgs/fullweddinglanscape.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+#left-align-tesimonial-image {
+    width: 33%;
+    margin: 0 auto;
+}
+
+#wedding-carousel {
+    height: 75vh;
+}
+
+.carousel-image {
+    max-height: 75vh;
+}
+
+/*--------------Farm Stay Page------------------*/
+#stay-fixed-hero {
+    height: 100vh;
+    width: 100vw;
+    background: url(../imgs/barnview.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+/*--------------Footer------------------*/
+
+footer {
+    height: 170px;
+    background-color: #b2ac88;
+    font-family: 'Cabin', sans-serif;
+    box-shadow: 0 50vh 0 50vh #DACBB4;
+}
+
+.socials {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.socials li {
+    display: inline-block;
+}
+
+.socials i {
+    color: #3e2818;
+    font-size: 175%;
+    margin: 1%;
+    padding: 50%;
+}
+
+.address-positioning {
+    text-align: center;
+}
+
+
+@media (min-width: 500px) {
+    .footer-mailing-break {
+        display: none;
+    }
+}
