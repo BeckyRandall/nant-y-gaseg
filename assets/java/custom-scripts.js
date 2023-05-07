@@ -27,7 +27,7 @@ document.getElementById("info-nav-stay").addEventListener("mouseout", function (
 //celebrate
 document.getElementById("info-nav-celebrate").addEventListener("mouseover", function () {
     console.log("on")
-    document.getElementById("info-nav-center").style.backgroundImage = "url(../assets/imgs/brideandgroompizza.webp)";
+    document.getElementById("info-nav-center").style.backgroundImage = "url(../assets/imgs/carousel1.webp)";
 }, false);
 
 document.getElementById("info-nav-celebrate").addEventListener("mouseout", function () {
