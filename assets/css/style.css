@@ -353,7 +353,7 @@ form label {
 #retreat-fixed-hero {
     height: 100vh;
     width: 100vw;
-    background: url(../imgs/DSC_9147-Edit.webp);
+    background: url(../imgs/retreat-hero.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: hsla(0, 100%, 90%, 0.3);
@@ -443,6 +443,19 @@ form label {
     height: 100vh;
     width: 100vw;
     background: url(../imgs/barnview.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+/*--------------Gallery Page------------------*/
+#gallery-fixed-hero {
+    height: 100vh;
+    width: 100vw;
+    background: url(../imgs/goat-flowers.webpgit);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
