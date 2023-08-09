@@ -1,6 +1,11 @@
 /*--------------Fonts---------------------*/
 
-h1, h2, h3, h4, h5, p{
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
     font-family: 'Antic Didone', serif;
 }
 
@@ -11,6 +16,7 @@ a {
 a:hover {
     color: inherit;
 }
+
 /*--------------Nav Bar------------------*/
 header {
     position: sticky;
@@ -35,11 +41,11 @@ header {
 
 /*--------------Universal------------------*/
 .row {
-    margin-top:20px;
+    margin-top: 20px;
 }
 
-.spacer-20{
-    height:20px;
+.spacer-20 {
+    height: 20px;
 }
 
 .banner-text {
@@ -75,7 +81,7 @@ header {
     -ms-animation: fadeIn 2s;
 }
 
-.fh-hero-text h1{
+.fh-hero-text h1 {
     font-size: 5rem;
     font-weight: bold;
 }
@@ -190,7 +196,7 @@ header {
     line-height: 50px;
 }
 
-.white-button-text{
+.white-button-text {
     color: black;
 }
 
@@ -237,6 +243,12 @@ header {
 .pop-out {
     border-radius: 25px;
 }
+
+.card {
+    height: 100%;
+    margin-bottom: 10px;
+}
+
 /*--------------HOME PAGE------------------*/
 
 /*--------------Hero Image------------------*/
@@ -330,7 +342,7 @@ hr {
 }
 
 .form-styling {
-    margin: 30px;
+    margin: 2px;
 }
 
 .form-group {
@@ -425,10 +437,10 @@ form label {
 #wedding-fixed-hero {
     height: 100vh;
     width: 100vw;
-    background: url(../imgs/buttonhole.jpg);
+    background: url(../imgs/weddingwellies-info.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     position: fixed;
     top: 0;
     z-index: -1;
@@ -470,6 +482,39 @@ form label {
     position: fixed;
     top: 0;
     z-index: -1;
+}
+
+.review-row {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.review-col {
+    margin-bottom: 10px;
+}
+
+.stay-summary {
+    background: url(../imgs/stonecirclelandscape.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 75vh;
+    position: relative;
+}
+
+
+.stay-summary-container {
+    max-width: 600px;
+    width: 90%;
+    background-color: #fff;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: #b5c99a solid 10px;
+    text-align: center;
 }
 
 /*--------------Gallery Page------------------*/
