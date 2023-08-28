@@ -23,10 +23,10 @@ function preload() {
 
 //-- usage --//
 preload(
-    "nant-y-gaseg/assets/imgs/barnview-info.webp",
-    "nant-y-gaseg/assets/imgs/weddingwellies-info.webp",
-    "nant-y-gaseg/assets/imgs/retreat-hero-info.webp",
-    "nant-y-gaseg/assets/imgs/wildflowerfield.webp"
+    "assets/imgs/barnview-info.webp",
+    "assets/imgs/weddingwellies-info.webp",
+    "assets/imgs/retreat-hero-info.webp",
+    "assets/imgs/wildflowerfield.webp"
 );
 
 //stay
