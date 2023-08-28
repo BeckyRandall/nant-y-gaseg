@@ -13,21 +13,21 @@ function fastfade() {
 
 //INFO NAV CENTRE CIRCLE IMAGE REPLACEMENT
 //--
-var images = [];
-function preload() {
-    for (var i = 0; i < arguments.length; i++) {
-        images[i] = new Image();
-        images[i].src = preload.arguments[i];
-    }
-}
+//var images = [];
+//function preload() {
+//    for (var i = 0; i < arguments.length; i++) {
+//        images[i] = new Image();
+//        images[i].src = preload.arguments[i];
+//    }
+//}
 
 //-- usage --//
-preload(
-    "../assets/imgs/barnview-info.webp",
-    "../assets/imgs/weddingwellies-info.webp",
-    "../assets/imgs/retreat-hero-info.webp",
-    "../assets/imgs/wildflowerfield.webp"
-);
+//preload(
+//    "../assets/imgs/barnview-info.webp",
+//    "../assets/imgs/weddingwellies-info.webp",
+//    "../assets/imgs/retreat-hero-info.webp",
+//    "../assets/imgs/wildflowerfield.webp"
+//);
 
 //stay
 document.getElementById("info-nav-stay").addEventListener("mouseover", function () {
