@@ -44,6 +44,10 @@ header {
     margin-top: 20px;
 }
 
+.on-top{
+    z-index: 999;
+}
+
 .spacer-20 {
     height: 20px;
 }
