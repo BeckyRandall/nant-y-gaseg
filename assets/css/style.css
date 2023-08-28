@@ -284,6 +284,10 @@ div.info-nav-link{
     position: relative;
 }
 
+div.info-nav-link:hover{
+    background-color: #FFF;
+}
+
 div.info-nav-link a {
     position: absolute;
     width: 100%;
