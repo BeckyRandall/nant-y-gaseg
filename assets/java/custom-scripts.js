@@ -31,7 +31,7 @@ preload(
 
 //stay
 document.getElementById("info-nav-stay").addEventListener("mouseover", function () {
-    document.getElementById("info-nav-center").style.backgroundImage = "url(/assets/imgs/barnview-info.webp)";
+    document.getElementById("info-nav-center").style.backgroundImage = "url(assets/imgs/barnview-info.webp)";
 }, false);
 
 document.getElementById("info-nav-stay").addEventListener("mouseout", function () {
@@ -40,7 +40,7 @@ document.getElementById("info-nav-stay").addEventListener("mouseout", function (
 
 //celebrate
 document.getElementById("info-nav-celebrate").addEventListener("mouseover", function () {
-    document.getElementById("info-nav-center").style.backgroundImage = "url(/assets/imgs/weddingwellies-info.webp)";
+    document.getElementById("info-nav-center").style.backgroundImage = "url(assets/imgs/weddingwellies-info.webp)";
 }, false);
 
 document.getElementById("info-nav-celebrate").addEventListener("mouseout", function () {
@@ -49,7 +49,7 @@ document.getElementById("info-nav-celebrate").addEventListener("mouseout", funct
 
 //retreat
 document.getElementById("info-nav-retreat").addEventListener("mouseover", function () {
-    document.getElementById("info-nav-center").style.backgroundImage = "url(/assets/imgs/retreat-hero-info.webp)";
+    document.getElementById("info-nav-center").style.backgroundImage = "url(assets/imgs/retreat-hero-info.webp)";
 }, false);
 
 document.getElementById("info-nav-retreat").addEventListener("mouseout", function () {
@@ -58,7 +58,7 @@ document.getElementById("info-nav-retreat").addEventListener("mouseout", functio
 
 //blog
 document.getElementById("info-nav-blog").addEventListener("mouseover", function () {
-    document.getElementById("info-nav-center").style.backgroundImage = "url(/assets/imgs/wildflowerfield.webp)";
+    document.getElementById("info-nav-center").style.backgroundImage = "url(assets/imgs/wildflowerfield.webp)";
 }, false);
 
 document.getElementById("info-nav-blog").addEventListener("mouseout", function () {
