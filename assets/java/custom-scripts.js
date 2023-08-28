@@ -13,7 +13,7 @@ function fastfade() {
 
 //INFO NAV CENTRE CIRCLE IMAGE REPLACEMENT
 //--
-//var images = [];
+var images = [];
 function preload() {
     for (var i = 0; i < arguments.length; i++) {
         images[i] = new Image();
